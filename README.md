@@ -85,6 +85,7 @@ let etherscanProvider = new ethers.providers.EtherscanProvider('ropsten');
 etherscanProvider.getHistory(address).then(function(history) {
     console.log(history);
 })`
+
 #总结
 **ethers.js 功能还不完善就要多参考多了解以太坊基础，阅览其他以太坊api接口 逐步完善自身**
 
@@ -202,8 +203,8 @@ https://web3js.readthedocs.io/en/1.0/index.html
 
 ##创建代币
 1. solidity开发代币
-[solidity中文文档](https://learnblockchain.cn/docs/solidity/
-https://blog.csdn.net/amao1998/article/details/79438497)
+[solidity中文文档](https://learnblockchain.cn/docs/solidity/)
+(https://blog.csdn.net/amao1998/article/details/79438497)
 [solidity开发工具](http://remix.ethereum.org/)
 
 `pragma solidity ^0.5.1;
@@ -299,5 +300,6 @@ contract HEAToken is SafeMath,owned {
         return true;
     }
 }`
+
 #以太坊开发工具清单
 http://blog.hubwiz.com/2019/02/14/ethereum-developer-tool-list/
