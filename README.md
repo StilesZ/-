@@ -303,3 +303,10 @@ contract HEAToken is SafeMath,owned {
 
 #以太坊开发工具清单
 http://blog.hubwiz.com/2019/02/14/ethereum-developer-tool-list/
+
+# [geth的rpc采用加密访问方式]
+## [nginx反向代理](https://blog.csdn.net/liuzhijun301/article/details/81085765)
+1. nginx配置用户名密码
+>在 nginx的 conf下，建立一个叫 htpasswd 的文件，纯文本，每一行是一对 用户名密码，冒号分隔，比如：
+tom:1234 
+mike:5678
