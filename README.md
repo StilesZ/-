@@ -1,9 +1,9 @@
-#以太坊操作 （简单版）
-##Js插件
+# 以太坊操作 （简单版）
+## Js插件
 [下载ethers插件](https://cdn.ethers.io/scripts/ethers-v4.min.js)
 [ethers中文文档](https://learnblockchain.cn/docs/ethers.js/)
 
-##nodejs版
+## nodejs版
 1. 新建文件夹 命名自定义
 2. 下载ethers插件
 > F:\ethers>npm install ethers
@@ -12,7 +12,7 @@
 4. 编辑运行文件
 > F:\ethers>node ethers.js
 
-##js 以太坊操作
+## js 以太坊操作
 1. 导入ethers
 2. 连接以太坊
 3. 以太坊操作
@@ -86,30 +86,30 @@ etherscanProvider.getHistory(address).then(function(history) {
     console.log(history);
 })`
 
-#总结
+# 总结
 **ethers.js 功能还不完善就要多参考多了解以太坊基础，阅览其他以太坊api接口 逐步完善自身**
 
 
  
 
-#以太坊搭建 （入门）
+# 以太坊搭建 （入门）
 
-##环境搭建
+## 环境搭建
 1. 安装go语言
 2. 安装nodeJs
 3. 安装以太坊客户端
->###linux系统下
+>### linux系统下
 clone git
 \> git clone https://github.com/ethereum/go-ethereum.git
 \> cd go-ethereum
 \> make all
 
->###windows系统下
+>### windows系统下
 https://ethfans.org/wikis/Ethereum-Geth-Mirror  
 [geth使用方法](https://www.jianshu.com/p/e1292dcc72c1)
 [geth基本操作](https://tiny-calf.com/2018/02/01/GETH%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/)
 
-##项目搭建
+## 项目搭建
 1. 创建文件目录
 > mkdir d:\ethereum
 cd d:\ethereum
@@ -161,7 +161,7 @@ cd d:\ethereum
 *	--cache=1024 分配给Geth的内存，理论上越大同步速度越快，根据自己的配置来
 *	console 开启控制台
 
-##geth API命令操作
+## geth API命令操作
 1. 创建用户
 > personal.newAccount("123456")
 0x362c16caec0d8ca96a4da170cb297be55b3e0368
@@ -191,7 +191,7 @@ net.peerCount
 >admin.addPeer("enode://91922b12115c067005c574844c6bbdb114eb262f90b6355cec89e13b483c3e4669c6d63ec66b6e3ca7a3a462d28edb3c659e9fa05ed4c7234524e582a8816743@120.27.164.92:13333")
 在data目录里面新建一个static-nodes.json文件，输入以下内容并保存：["enode://91922b12115c067005c574844c6bbdb114eb262f90b6355cec89e13b483c3e4669c6d63ec66b6e3ca7a3a462d28edb3c659e9fa05ed4c7234524e582a8816743@120.27.164.92:13333"]
 …………
-##geth连接web3
+## geth连接web3
 1. web3.js在页面引用
 2.  web3操作
 api
@@ -201,7 +201,7 @@ http://cw.hubwiz.com/card/c/web3.js-1.0/
 https://web3js.readthedocs.io/en/1.0/index.html
 连接以太坊，查询余额，转账等等操作
 
-##创建代币
+## 创建代币
 1. solidity开发代币
 [solidity中文文档](https://learnblockchain.cn/docs/solidity/)
 (https://blog.csdn.net/amao1998/article/details/79438497)
@@ -301,7 +301,7 @@ contract HEAToken is SafeMath,owned {
     }
 }`
 
-#以太坊开发工具清单
+# 以太坊开发工具清单
 http://blog.hubwiz.com/2019/02/14/ethereum-developer-tool-list/
 
 # [geth的rpc采用加密访问方式]
