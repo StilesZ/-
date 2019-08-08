@@ -96,7 +96,16 @@ etherscanProvider.getHistory(address).then(function(history) {
 
 ## 环境搭建
 1. 安装go语言
+[linux系统](https://blog.csdn.net/xc70203/article/details/77988473)
+>wget https://dl.google.com/go/go1.10.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.10.linux-amd64.tar.gz
+echo 'export GOROOT=/usr/local/go' >> /etc/profile  
+echo 'export PATH=$PATH:$GOROOT/bin' >> /etc/profile  
+echo 'export GOPATH=/root/go' >> /etc/profile
+echo 'export PATH=$PATH:$GOPATH/bin' >> /etc/profile
+source /etc/profile
 2. 安装nodeJs
+>yum update -y && yum install git wget bzip2 vim gcc-c++ ntp epel-release nodejs cmake -y
 3. 安装以太坊客户端
 >### linux系统下
 clone git
