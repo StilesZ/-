@@ -112,6 +112,8 @@ clone git
 \> git clone https://github.com/ethereum/go-ethereum.git
 \> cd go-ethereum
 \> make all
+\> echo "export PATH=$PATH:/root/go-ethereum/build/bin" >> /etc/profile
+\> source /etc/profile
 
 >### windows系统下
 https://ethfans.org/wikis/Ethereum-Geth-Mirror  
